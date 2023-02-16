@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main -Write a C program that prints the size of various types on the computer it is compiled and run on.i
- * Return 0 (Good)
+ * main - Write a C program that prints various size on cumputer
+ * Description:'You should produce the exact same output as in the example'
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -11,10 +12,10 @@ int main(void)
 	long long int d;
 	float f;
 
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
-	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
-	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
-	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
-	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-	return (0);
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+return (0);
 }
