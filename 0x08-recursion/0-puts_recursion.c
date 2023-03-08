@@ -2,17 +2,18 @@
 
 /**
  * _puts_recursion - Function that prints a string
- * @s: String to print
+ * @s: String to input
+ * Return: 0 Success
  */
 
 void _puts_recursion(char *s)
 
 {
-	if (*s == '\n')
+	if (*s)
 	{
-		_putchar('\n');
-		return;
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	s++;
-	_puts_recursion(s);
+	else
+		_putchar('\n');
 }
