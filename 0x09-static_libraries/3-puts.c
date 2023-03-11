@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * _puts - Function that prints string followed
