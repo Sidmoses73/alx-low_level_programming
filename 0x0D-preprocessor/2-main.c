@@ -9,6 +9,6 @@ int main(void)
 
 {
 
-	printf("file: %s\n", __file__);
+	printf("File: %s\n", __FILE__);
 	return (0);
 }
