@@ -1,4 +1,9 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+char *create_buffer(char *file);
+
 
 #define BUFFER_SIZE 1024
 
